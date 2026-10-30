@@ -1,2 +1,1 @@
-# housepaintersdenverco.com
-housepaintersdenverco.com
+Static site.
