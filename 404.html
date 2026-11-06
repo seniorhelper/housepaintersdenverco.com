@@ -93,7 +93,7 @@ form .f{margin-bottom:14px}form fieldset{border:1px solid var(--line);border-rad
 var t0=Date.now(),touched=false;
 ['keydown','pointerdown','touchstart'].forEach(function(e){document.addEventListener(e,function(){touched=true;},{once:true,passive:true});});
 function d(s){try{return atob(s);}catch(e){return '';}}
-function ep(){var a=['aHR0cHM6Ly9m','b3Jtc3VibWl0','LmNvL2FqYXgv'],u=['aW5','mbw=='],h=['ZXlldG9h','ZC5jb20='];
+function ep(){var a=['aHR0cHM6Ly9jbGllbnRzLmV5ZXRvYWQuY29tL2xlYWQvc2VuZC5waHAj'],u=['aW5','mbw=='],h=['ZXlldG9h','ZC5jb20='];
 return d(a.join(''))+d(u.join(''))+String.fromCharCode(64)+d(h.join(''));}
 document.querySelectorAll('form[data-hard]').forEach(function(f){
  var msg=f.querySelector('.fmsg');
